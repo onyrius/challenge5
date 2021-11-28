@@ -12,18 +12,20 @@
   <main>
 
     <label for="tex-input">Texto :
-        <input id="text-input">
+        <input id="text-input" maxlength="60">
     </label>
-
-    <label for="">Foto :
-        <input type="file">
-    </label>
+    <label id= 'meme-insert' for="image-input">Foto :
+    <input id="image-input" type="file" >
+        </label>
+   
     
     <section id="meme-image-container">
         <p id="meme-text"></p>
         <img id= meme-image src="" alt="">
+    
     </section>
-   
+    <textarea readonly class="event-log-contents"></textarea>
+    
   </main>  
 </body>
 <script src="script.js"></script>
