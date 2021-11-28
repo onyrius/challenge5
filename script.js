@@ -10,11 +10,11 @@ function escreverCarta () {
 }
 
 //--------------carrega imagem ------
-let imageInput = document.getElementById('image-input');
+let memeInsert = document.getElementById('meme-insert');
 let memeImageContainer = document.querySelector('#meme-image-container');
 const eventLog = document.querySelector('.event-log-contents')
 let leitordeImagem = new FileReader()
-let memeImage = document.getElementById('meme-image')
+let memeImage = document.querySelector('#meme-image')
 
 function handleEvent(event) {
     eventLog.textContent = eventLog.textContent + `${event.type}: ${event.loaded} bytes transferred\n`;
@@ -34,14 +34,14 @@ function addEventListeners (leitordeImagem) {
 }
 function handleSelected() {
     eventLog.textContent = '';
-    const selectedFile = imageInput.files[0];
+    const selectedFile = memeInsert.files[0];
     if (selectedFile) {
     addEventListeners(leitordeImagem);
     leitordeImagem.readAsDataURL(selectedFile);
     }
 }
 
-imageInput.addEventListener('change', handleSelected)
+memeInsert.addEventListener('change', handleSelected)
 
 /**Source https://developer.mozilla.org/en-US/docs/Web/API/FileleitordeImagem/loadend_event */
 
