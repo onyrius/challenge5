@@ -28,7 +28,6 @@ header {
 
 #meme-text {
   position: relative;
-  z-index: 10;
   margin-top: 50px;
   margin-left: 25px;
   text-shadow: 5px 5px 5px black;
