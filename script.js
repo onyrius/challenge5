@@ -46,4 +46,31 @@ memeInsert.addEventListener('change', handleSelected)
 /**Source https://developer.mozilla.org/en-US/docs/Web/API/FileleitordeImagem/loadend_event */
 
 //------------- customiza borda ----------------
+let buttonFire = document.querySelector('#fire');
+let buttonWater = document.querySelector('#water');
+let buttonEarth = document.querySelector('#earth');
+
+buttonFire.addEventListener('click', mudarFire);
+buttonWater.addEventListener('click', mudarWater);
+buttonEarth.addEventListener('click', mudarEarth);
+
+function mudarFire() {
+let choiceOfStyle = window.getComputedStyle(buttonFire).border;
+memeImageContainer.style.border = choiceOfStyle
+console.log(choiceOfStyle);
+}
+
+function mudarWater() {
+    let choiceOfStyle = window.getComputedStyle(buttonWater).border;
+    memeImageContainer.style.border = choiceOfStyle
+    console.log(choiceOfStyle);
+    }
+    
+function mudarEarth() {
+    let choiceOfStyle = window.getComputedStyle(buttonEarth).border;
+    memeImageContainer.style.border = choiceOfStyle
+        
+}
+
+        
 
