@@ -11,14 +11,15 @@ header {
 }
 
 #meme-image-container {
-  width: 50%;
-  height: 50%;
+  width: 350px;
+  height: 350px;
   display: inline-block;
   border: 1px solid black;
   margin: 0;
   padding: 0;
   background-color: white;
   position: relative;
+  overflow: hidden;
 }
 
 #meme-insert {
@@ -84,6 +85,7 @@ textarea {
   width: 100px;
   position: relative;
   text-align: center;
+  background-image: url('imgs/meme1.png');
 }
 
 #meme-2 {
@@ -91,6 +93,7 @@ textarea {
   width: 100px;
   position: relative;
   text-align: center;
+  background-image: url('imgs/meme2.png');
 }
 
 #meme-3 {
@@ -98,6 +101,7 @@ textarea {
   width: 100px;
   position: relative;
   text-align: center;
+  background-image: url('imgs/meme3.png');
 }
 
 #meme-4 {

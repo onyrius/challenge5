@@ -84,7 +84,9 @@ function mudarEarth() {
   meme2.addEventListener('click', escolherMeme);
   meme3.addEventListener('click', escolherMeme);
   meme4.addEventListener('click', escolherMeme);
-
-function escolherMeme () {
-    
+ 
+function escolherMeme(event) {
+    let memeEscolhido = event.target.innerHTML;
+    memeImage.innerHTML = memeEscolhido
+    console.log(memeEscolhido)
 }
