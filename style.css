@@ -1,6 +1,7 @@
 body {
   display: block;
   text-align: center;
+  position: relative;
 }
 
 header {
@@ -17,6 +18,7 @@ header {
   margin: 0;
   padding: 0;
   background-color: white;
+  position: relative;
 }
 
 #meme-insert {
@@ -27,13 +29,16 @@ header {
 }
 
 #container-text {
-  position: relative;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 #meme-text {
   z-index: 10;
-  margin-top: 50px;
-  margin-left: 25px;
+  margin-top: 0;
+  margin-left: 40px;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
@@ -73,3 +78,32 @@ textarea {
   color: brown;
   font-weight: 700;
 }
+
+#meme-1 {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+
+#meme-2 {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+
+#meme-3 {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+
+#meme-4 {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+

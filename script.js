@@ -35,7 +35,9 @@ function addEventListeners (leitordeImagem) {
 function handleSelected() {
     eventLog.textContent = '';
     const selectedFile = memeInsert.files[0];
+    
     if (selectedFile) {
+        
     addEventListeners(leitordeImagem);
     leitordeImagem.readAsDataURL(selectedFile);
     }
@@ -72,5 +74,17 @@ function mudarEarth() {
         
 }
 
-        
+      //--------  memes prontos ----
+  let meme1 = document.querySelector('#meme-1');
+  let meme2 = document.querySelector('#meme-2');
+  let meme3 = document.querySelector('#meme-3');
+  let meme4 = document.querySelector('#meme-4');
 
+  meme1.addEventListener('click', escolherMeme);
+  meme2.addEventListener('click', escolherMeme);
+  meme3.addEventListener('click', escolherMeme);
+  meme4.addEventListener('click', escolherMeme);
+
+function escolherMeme () {
+    
+}
