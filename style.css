@@ -26,6 +26,10 @@ header {
   padding: 0;
 }
 
+#container-text {
+  position: relative;
+}
+
 #meme-text {
   z-index: 10;
   margin-top: 50px;
@@ -49,5 +53,3 @@ textarea {
   z-index: 1;
   position: relative;
 }
-
-
