@@ -53,3 +53,23 @@ textarea {
   z-index: 1;
   position: relative;
 }
+
+#fire {
+  border: 3px dashed red;
+  background-color: red;
+  color: yellow;
+}
+
+#water {
+  border: 5px double blue;
+  background-color: blue;
+  color: lightcyan;
+  font-weight: 700;
+}
+
+#earth {
+  border: 6px groove green;
+  background-color: green;
+  color: brown;
+  font-weight: 700;
+}

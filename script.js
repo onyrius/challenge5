@@ -45,4 +45,5 @@ memeInsert.addEventListener('change', handleSelected)
 
 /**Source https://developer.mozilla.org/en-US/docs/Web/API/FileleitordeImagem/loadend_event */
 
+//------------- customiza borda ----------------
 
