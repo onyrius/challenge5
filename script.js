@@ -91,4 +91,6 @@ function escolherMeme(event) {
     memeImage.setAttribute('src', memeEscolhido )
 }
 //solução, depois de procurar muuuito, foi achada ,E ENTENDIDA ,no gitHub da pessoa estudante Thiago Nóbrega <3 
-/**Source https://github.com/tryber/sd-018-b-project-meme-generator/pull/18/files */
+/**Source https://github.com/tryber/sd-018-b-project-meme-generator/pull/18/files 
+ * https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute?retiredLocale=it
+*/
