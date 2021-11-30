@@ -86,7 +86,9 @@ function mudarEarth() {
   meme4.addEventListener('click', escolherMeme);
  
 function escolherMeme(event) {
-    let memeEscolhido = event.target.innerHTML;
-    memeImage.innerHTML = memeEscolhido
-    console.log(memeEscolhido)
+    let memeEscolhido = event.target.src;
+    memeImage.style.backgroundImage = 'url(memeEscolhido)'
+    memeImage.setAttribute('src', memeEscolhido )
 }
+//solução, depois de procurar muuuito, foi achada ,E ENTENDIDA ,no gitHub da pessoa estudante Thiago Nóbrega <3 
+/**Source https://github.com/tryber/sd-018-b-project-meme-generator/pull/18/files */
