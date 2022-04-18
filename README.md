@@ -3,7 +3,13 @@
 ## Meme Generator Project
 
 <p> E, finalmente, consegui terminar o desafio!!! 5 projetos de manipulação de dom em uma semana!!! Nesse projeto foi desenvolvido um site que é possível fazer upload de uma imagem e colocar alguma frase, gerando um meme. </p>
-
+---
+<ul>Você pode conferir os outros projetos aqui:
+<li><a href="https://github.com/onyrius/challenge1">challenge 1: Guess Color Project</a></li>
+<li><a href="https://github.com/onyrius/challenge2">challenge 2: Mistery Letter Project</a></li>
+<li><a href="https://github.com/onyrius/challenge3">challenge 3: Pixel Art Project</a></li>
+<li><a href="https://github.com/onyrius/challenge4">challenge 4: Guess Color Project</a></li>
+</ul>
 ---
 
 ## Habilidades
