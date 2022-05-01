@@ -1,5 +1,9 @@
 # :heart_eyes: Week Challenge 5-5  :heart_eyes:
 
+
+<p> Foi uma semana tão intensa que acabei escrevendo sobre essa experiência!! Um artigo sobre o medo e os desafios de ser mulher no mundo da Tecnologia <a href="https://www.linkedin.com/pulse/sobre-o-medo-suelen-arruda/?trackingId=Llj%2F9cqjR6i3ZzX7mxoS4Q%3D%3D">Eu senti medo!</a> 
+</p>
+
 ## Meme Generator Project
 
 <p> E, finalmente, consegui terminar o desafio!!! 5 projetos de manipulação de dom em uma semana!!! Nesse projeto foi desenvolvido um site que é possível fazer upload de uma imagem e colocar alguma frase, gerando um meme. </p>
